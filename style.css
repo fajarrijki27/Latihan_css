@@ -1,0 +1,71 @@
+.body{
+    background-color: #f0f0f0;
+}
+.container{
+    background-color: yellow;
+}
+p{
+    color: red;
+}
+#highlight{
+    color: orange;
+    font-size: 20px;
+}
+a:hover{
+    color: blue;
+    background-color: rgba(89, 190, 221, 0.64);
+    transition: .2s ease-in-out;
+    transition-delay: .3s;
+    border-radius: 8px;
+}
+#boxModel{
+    width: 300px;
+    height: 150px;
+    padding: 2opx;
+    border: 5px;
+    margin: 15px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 2px solid #ccc;
+    background-color: #f9f9f9;
+}
+.item{
+    padding: 10px;
+    border: 2px solid;
+    background-color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    flex: 1;
+    margin: 0 5px;
+}
+h2{
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    background-image: url('ElonMusk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.advanced-style{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(45deg, blue, purple);
+}
+@media (max-width: 600px) {
+    .flex-container {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    body {
+        background-color: #e0f7fa;
+    }
+}
