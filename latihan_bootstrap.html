@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <style>
+        @media (max-width: 767px) {
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1.1rem;
+            }
+        }
+        @media (max-width: 767px) {
+            aside {
+                display: none;
+            }
+        }
+        @media (min-width: 1200px) {
+            header {
+                background-color: #007bff;
+            }
+        }
+    </style>    
+</head>
+<body>
+  <div class="container">
+        
+    <!-- Navbar Responsif -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Brand</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Fitur</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">harga</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+  <!--container seluruh tampilan-->
+    <div class="container">
+
+  <!-- header-->
+
+        <div class="row bg-primary text-white text-center py-3">
+            <header class="col-12">
+                <h1>Header</h1>
+            </header>
+        </div>
+
+  <!-- navigasi -->
+
+        <div class="row my-3">
+            <nav class="col-12 col-md-4 bg-light p-3">
+                <h2>Navigation</h2>
+                <p>link1</p>
+                <p>link2</p>
+            </nav>
+            
+  <!-- content-->
+            <main class="col-md-8 p-3">
+                <h2>Main Content</h2>
+                <p>belajar bahasa pemprograman</p>
+            </main>
+        </div>
+  <!--side bar-->
+        <div class="row my-3">
+            <aside class="col-md-4 bg-secondary text-white p-3">
+                <p>Side bar</p>
+            </aside>
+  <!--footer-->
+            <footer class="row">
+              <div class="col-12 bg-dark text-white text-center py-3">
+                <p>Latihan bootstrap</p>
+              </div>
+            </footer>
+        </div>
+    </div>
+
+    <div class="container my-5">
+      <!-- Row untuk menampung card -->
+      <div class="row">
+          <!-- Card 1 -->
+          <div class="col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Card Title 1</h5>
+                      <p class="card-text">belajar html</p>
+                      <a href="#" class="btn btn-primary">Mulai</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 2">
+                  <div class="card-body">
+                      <h5 class="card-title">Card Title 2</h5>
+                      <p class="card-text">belajar css</p>
+                      <a href="#" class="btn btn-primary">Mulai</a>
+                  </div>
+              </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="col-sm-6 col-md-4 mb-4">
+              <div class="card">
+                  <img src="https://via.placeholder.com/150" class="card-img-top" alt="Card image 3">
+                  <div class="card-body">
+                      <h5 class="card-title">Card Title 3</h5>
+                      <p class="card-text">belajar javascript</p>
+                      <a href="#" class="btn btn-primary">Mulai</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="container my-5">
+    <main class="row">
+        <div class="col-12">
+            <h1>Welcome to the Example Page</h1>
+            <p>This is a simple example demonstrating how to create a responsive footer using Bootstrap.</p>
+        </div>
+    </main>
+</div>
+
+<!-- Footer Bootstrap -->
+<footer class="bg-dark text-white pt-4">
+    <div class="container">
+        <div class="row">
+            <!-- Kolom Links -->
+            <div class="col-sm-6 col-md-3 mb-3">
+                <h5>Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#" class="text-white">Home</a></li>
+                    <li><a href="#" class="text-white">About Us</a></li>
+                    <li><a href="#" class="text-white">Services</a></li>
+                    <li><a href="#" class="text-white">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Kolom About Us -->
+            <div class="col-sm-6 col-md-3 mb-3">
+                <h5>About Us</h5>
+                <p>ini merupakan latihan bootstrap</p>
+            </div>
+
+            <!-- Kolom Contact Info -->
+            <div class="col-sm-6 col-md-3 mb-3">
+                <h5>Contact Info</h5>
+                <p>
+                    Address: 123 Street, City, Country<br>
+                    Phone: +123 456 7890<br>
+                    Email: info@example.com
+                </p>
+            </div>
+
+            <!-- Kolom Social Media -->
+            <div class="col-sm-6 col-md-3 mb-3">
+                <h5>Follow Us</h5>
+                <a href="#" class="text-white mr-3">Facebook</a>
+                <a href="#" class="text-white mr-3">Twitter</a>
+                <a href="#" class="text-white mr-3">Instagram</a>
+                <a href="#" class="text-white">LinkedIn</a>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="row">
+            <div class="col-12 text-center mt-3">
+                <p>&copy; 2024 Your Company Name. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+  <!-- Integrasi Bootstrap JS dan jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
